@@ -10,24 +10,26 @@
     height: 70px;
     min-height: 70px;
 }
-#top-nav{
+
+#top-nav {
     background: #368ee0;
 }
+
 /*#top-nav a{*/
-    /*color: #fff;*/
+/*color: #fff;*/
 /*}*/
 
-#top-nav .nav.navbar-nav{
+#top-nav .nav.navbar-nav {
     margin-left: 100px;
 }
 
-.page-sidebar-menu{
+.page-sidebar-menu {
     border-top: 2px solid #368ee0;
     margin-top: 40px;
     background: #fafafa;
 }
 
-.page-sidebar-menu .navbar-header{
+.page-sidebar-menu .navbar-header {
     display: block;
     position: relative;
     margin: 0;
@@ -43,6 +45,7 @@
     border-left: 1px solid #e2e2e2 !important;
     border-bottom: 1px solid #e2e2e2 !important;
 }
+
 /**
     pace plugin
 */
@@ -54,27 +57,29 @@
     left: 0;
     height: 2px;
 
-    -webkit-transition:opacity 500ms linear;
-    -moz-transition:opacity 500ms linear;
+    -webkit-transition: opacity 500ms linear;
+    -moz-transition: opacity 500ms linear;
     -o-transition: opacity 500ms linear;
-    transition:opacity 500ms linear;
+    transition: opacity 500ms linear;
 }
-.pace-progress-inner{
-    position:absolute;
-    height:2px;
-    -webkit-box-shadow:#29d 1px 0 6px 1px;
-    -moz-box-shadow:#29d 1px 0 6px 1px;
-    box-shadow:#29d 1px 0 6px 1px;
-    -webkit-border-radius:100%;
+
+.pace-progress-inner {
+    position: absolute;
+    height: 2px;
+    -webkit-box-shadow: #29d 1px 0 6px 1px;
+    -moz-box-shadow: #29d 1px 0 6px 1px;
+    box-shadow: #29d 1px 0 6px 1px;
+    -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
-    opacity:1;
-    width:150px;
-    right:1px;
-    -webkit-animation:pulse 2s ease-out 0s infinite;
-    -moz-animation:pulse 2s ease-out 0s infinite;
-    animation:pulse 2s ease-out 0s infinite;
+    opacity: 1;
+    width: 150px;
+    right: 1px;
+    -webkit-animation: pulse 2s ease-out 0s infinite;
+    -moz-animation: pulse 2s ease-out 0s infinite;
+    animation: pulse 2s ease-out 0s infinite;
 }
+
 .pace-inactive {
     display: none;
     /*opacity:0*/
@@ -82,13 +87,61 @@
 
 @-webkit-keyframes pulse {
     30% {
-        opacity:.6
+        opacity: .6
     }
     60% {
-        opacity:0;
+        opacity: 0;
     }
     100% {
-        opacity:.6
+        opacity: .6
     }
 }
 
+.tabbable-custom .nav-tabs > li.active {
+    border-top: 3px solid #368ee0;
+    margin-top: 0;
+    position: relative;
+}
+
+#profile .tips {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+#profile .tips i {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+#profile .tips div {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#profile .tips p {
+    padding: 10px 0;
+}
+
+#news .news-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#news .news-list li{
+    position: relative;
+    padding: 10px 5px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.news-list .desc{
+    padding-top: 4px;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+.footer{
+    border-top: 3px solid #368ee0;
+    text-align: center;
+}
