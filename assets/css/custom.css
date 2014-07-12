@@ -1,0 +1,63 @@
+/* here you can put your own css to customize and override the theme */
+
+.header {
+    width: 100%;
+    padding: 0 20px 0 20px;
+    margin: 0;
+    border: 0px;
+    padding: 0px;
+    box-shadow: none;
+    height: 70px;
+    min-height: 70px;
+}
+
+
+/**
+    pace plugin
+*/
+.pace .pace-progress {
+    background: #29d;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    height: 2px;
+
+    -webkit-transition:opacity 500ms linear;
+    -moz-transition:opacity 500ms linear;
+    -o-transition: opacity 500ms linear;
+    transition:opacity 500ms linear;
+}
+.pace-progress-inner{
+    position:absolute;
+    height:2px;
+    -webkit-box-shadow:#29d 1px 0 6px 1px;
+    -moz-box-shadow:#29d 1px 0 6px 1px;
+    box-shadow:#29d 1px 0 6px 1px;
+    -webkit-border-radius:100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    opacity:1;
+    width:150px;
+    right:1px;
+    -webkit-animation:pulse 2s ease-out 0s infinite;
+    -moz-animation:pulse 2s ease-out 0s infinite;
+    animation:pulse 2s ease-out 0s infinite;
+}
+.pace-inactive {
+    display: none;
+    /*opacity:0*/
+}
+
+@-webkit-keyframes pulse {
+    30% {
+        opacity:.6
+    }
+    60% {
+        opacity:0;
+    }
+    100% {
+        opacity:.6
+    }
+}
+
