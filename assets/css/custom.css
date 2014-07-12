@@ -10,8 +10,39 @@
     height: 70px;
     min-height: 70px;
 }
+#top-nav{
+    background: #368ee0;
+}
+/*#top-nav a{*/
+    /*color: #fff;*/
+/*}*/
 
+#top-nav .nav.navbar-nav{
+    margin-left: 100px;
+}
 
+.page-sidebar-menu{
+    border-top: 2px solid #368ee0;
+    margin-top: 40px;
+    background: #fafafa;
+}
+
+.page-sidebar-menu .navbar-header{
+    display: block;
+    position: relative;
+    margin: 0;
+    border: 0px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    float: none;
+}
+
+.page-content {
+    border-left: 1px solid #e2e2e2 !important;
+    border-bottom: 1px solid #e2e2e2 !important;
+}
 /**
     pace plugin
 */
