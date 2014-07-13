@@ -1,0 +1,294 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*================== 登录页面 ======================*/
+/*Login.html*/
+.login{
+	width: 510px;
+	height: 600px;
+	background:url(../images/card.png) 0px 0px no-repeat;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	right: 15%;
+}
+
+.login_form{ 
+	width: 405px;
+	height: 145px;
+	background: url(../images/login_form_bg.png) 0px 0px no-repeat;
+	margin: 230px 0 0 30px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.login_form .left_photo{
+	width: 107px;
+	height: 114px;
+	margin-left: 20px;
+	float: left;
+}
+
+.login_form .in_form{
+	float: left;
+	width: 270px;
+	height: 114px;
+}
+
+.login_form li{
+	margin-top: 2px;
+	margin-bottom: 10px;
+}
+.login_form .title{
+	font-family: '微软雅黑';
+	font-size: 18px;
+	font-weight: bold;
+	color: #2274ac;
+}
+.login_form .user_name{
+	width: 230px;
+	height: 38px;
+	line-height: 40px;
+	border: #9aa5af solid 1px;
+	background: url(../images/vw/icon_24x24.gif) 10px -237px no-repeat #ffffff;
+	margin-left: 30px;
+}
+
+.user_pass{
+	width: 230px;
+	height: 38px;
+	line-height: 40px;
+	border: #9aa5af solid 1px;
+	background: url(../images/vw/icon_24x24.gif) 10px -279px no-repeat #ffffff;
+	margin-left: 30px;
+}
+a.forgot{
+	color: #666666;
+	font-size: 14px;
+	text-decoration: underline;
+}
+a.forgot:hover{
+	color: #ef7100;
+}
+.login_btn{
+	width: 74px;
+	height: 27px;
+	background: url(../images/login_btn.png) 0px 2px no-repeat;
+	cursor: pointer;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 27px;
+	text-align: center;
+	margin-left: 31px;
+	padding-top: 1px;
+}
+
+.v_remeber{
+	float: right;
+	height:25px;
+	width:90px;
+	margin: 0 71px 0 0;
+}
+
+.v_remeber span{
+	height:25px;
+	width:70px;
+	margin-left: 5px;
+	line-height: 25px;
+	font-size: 14px;
+	vertical-align: center;
+}
+
+/*================== 找回密码页面 ======================*/
+.pwd_box{
+	background: #eef1f1;
+	width: 100%;
+	height: 600px;
+	font-family:'微软雅黑';
+}
+
+.pwd_content_box {
+	width:890px;
+	margin:0 auto;
+    padding-top: 40px;
+}
+.pwd_head_menue {
+	height:175px;
+	position:relative;
+	background: url(../images/vw/road.gif) left bottom repeat-x;
+}
+.pwd_head_menue ul li {
+	float:left;
+	width:228px;
+	height:175px;
+	margin-right: 103px;
+	cursor:pointer;
+}
+.pwd_head_menue .last{
+	margin-right: 0px !important;
+}
+.pwd_head_menue span{
+	display: block;
+	width:228px;
+	height:175px;
+	cursor:pointer;
+}
+.pwd_head_menue .forget_pwd {
+	background: url(../images/vw/pwd_head_menue.gif) 0px 0px no-repeat;
+}
+.pwd_head_menue .now .forget_pwd{
+	background-position: 0px -175px;
+}
+.pwd_head_menue .view_mailbox {
+	background: url(../images/vw/pwd_head_menue.gif) -331px 0px no-repeat;
+}
+.pwd_head_menue .now .view_mailbox{
+	background-position: -331px -175px;
+}
+.pwd_head_menue .reset_pwd {
+	background: url(../images/vw/pwd_head_menue.gif) -662px 0px no-repeat;
+}
+.pwd_head_menue .now .reset_pwd{
+	background-position: -662px -175px;
+}
+.pwd_head_menue img {
+	margin:36px auto 0 auto;
+	display:block;
+	margin-bottom:15px;
+}
+.pwd_head_menue ul li a {
+	color:#fff;
+	font-size:18px;
+}
+.pwd_head_menue ul li a.pwd_normal {
+	color:#5d5d5d;
+	font-size:18px;
+}
+.pwd_head_menue .pwd_head_menue_arrow {
+	width:75px;
+	height:75px;
+	position:absolute;
+	left:188px;
+	top:0px;
+}
+.pwd_head_menue .pwd_head_menue_arrow_normal {
+	width:75px;
+	height:75px;
+	position:absolute;
+	left:415px;
+	top:0px;
+}
+.pwd_body {
+	margin-top: 60px;
+	font-size: 14px !important;
+	color: #333333 !important;
+}
+.pwd_body input[type="radio"] {
+	margin-right: 4px;
+}
+.pwd_body .ipt {
+	clear: both;
+	margin-bottom:15px;
+}
+.pwd_body .tip_title_1 {
+	font-size: 18px;
+	color: #2274ac !important;
+}
+.pwd_body .ipt h1 {
+	float:left;
+	font-weight:normal;
+	width: 260px;
+	text-align:right;
+}
+.pwd_body .ipt .input_bg {
+	width: 230px;
+	border:1px solid #9aa5af;
+	height:22px;
+	background:#ffffff;
+	float: left;
+}
+.pwd_body .ipt h2 {
+	color:#606060;
+	font-weight:normal;
+	float:left;
+	margin-left:12px;
+}
+.pwd_body .ipt span {
+	color:#d02c44;
+	padding-right:4px;
+	font-weight: normal;
+}
+
+.pwd_body .ipt .btn_radio_normal {
+	background:url(../images/radio_normal.png) no-repeat;
+	width:16px;
+	height:16px;
+	display:block;
+	margin-top:6px;
+	cursor:pointer
+}
+.pwd_body .ipt .btn_radio_hover {
+	background:url(../images/radio_hover.png) no-repeat;
+	width:16px;
+	height:16px;
+	display:block;
+	margin-top:6px;
+	cursor:pointer
+}
+.pwd_body .ipt h3 {
+	margin:0 32px 0 8px;
+	float:left;
+	color:#606060;
+	font-weight:normal;
+}
+.pwd_body .btn {
+	width:163px;
+	height:43px;
+	line-height:43px;
+	color:#fff;
+	font-size:18px;
+	text-align:center;
+	display:block;
+	margin:35px auto 0 auto;
+	background:#3394d9;
+	cursor:pointer
+}
+.pwd_body .btn:hover {
+	background:#f7b347;
+	cursor:pointer
+}
+.pwd_body a.submit {
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	color:#fff;
+	font-size:18px;
+	text-align:center;
+	display:block;
+	float: left;
+	background:#3393d4;
+}
+.pwd_body a.submit:hover {
+	background:#f7b347;
+}
+
+/* shadow start */
+/*================== 输入验证码页面 ======================*/
+.pwd_body .ipt i{ display:inline-block;background:#2274ac; color:#fff; font-style:normal; width:10px; height:10px; font-size:9px; line-height:10px; margin-right:4px;text-align:center; cursor:pointer}
+.pwd_body .tip_title_2{color:#ea5d10!important;font-size: 18px;}
+.pwd_body .pwd_mail{text-align:center; padding:0 0 20px;font-size:12px}
+
+/*================== 重新设置密码页面 ======================*/
+.pwd_body .check_password{ float:left;margin-left:12px;}
+.pwd_body .check_password li{ display:block;color:#fff; background:#d3d6d6;float:left;font-size:14px;text-align:center;line-height:24px;width:50px; border-right:1px solid #fff}
+.pwd_body .check_password .last{ border:none;}
+.pwd_body .check_password .cur{ background:#ea5d10}
+
+
+
+<ul class="check_password"><li class="check_password_li" id="strength_W">弱</li><li class="check_password_li" id="strength_A" >中</li><li class="check_password_li" id="strength_S">强</li></ul>
+
+
+
+
+

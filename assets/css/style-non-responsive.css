@@ -34,6 +34,12 @@
 	  font-family: '微软雅黑';
 	}
 
+    .navbar-nav > li > a:hover,.nav>li>a:focus{
+    	background-color:#fff; 
+    	color: #368ee0; 
+    	font-weight: bold;
+    }
+
 	/* Redeclare since we override the float above */
 	.navbar-nav.navbar-right {
 	  float: right;
@@ -76,6 +82,11 @@
 	/***
  	Page sidebar
  	***/
+ 	.page-sidebar-wrapper{
+ 		height: 100%;
+ 		background: #f2f2f2;
+ 	}
+
  	.page-sidebar {
  		width: 225px;
  		float: left;
@@ -85,6 +96,7 @@
 
   	.page-sidebar.navbar-collapse {
   		max-height: none !important;
+  		background-color: #fafafa;
   	}
 
   	/***

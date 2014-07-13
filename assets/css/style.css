@@ -92,7 +92,7 @@ h3,
 h4, 
 h5, 
 h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif,'微软雅黑';
   font-weight: 300 !important;
 }
 
@@ -584,6 +584,10 @@ Page sidebar
   margin: 0;
   padding: 0; 
   border: 0px;
+  background: #fafafa;
+  height: 70px;
+  border-bottom: 1px solid #e0e0e0;
+  line-height: 70px;
 }
 
 .page-sidebar-menu > li.start > a {
@@ -600,10 +604,11 @@ Page sidebar
   position: relative;
   margin: 0;
   border: 0px;
-  padding: 10px 15px;
+  padding: 0px 25px;
   text-decoration: none;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 550;
+  color: #9a9999;
 }
 
 .page-sidebar-fixed .page-sidebar-menu > li > a {
@@ -622,7 +627,7 @@ Page sidebar
 
 .page-sidebar-menu > li > a i {
   font-size: 16px;
-  margin-right: 5px;
+  margin-right: 10px;
   text-shadow:none; 
 }
 
@@ -2490,7 +2495,7 @@ Custom tabs
 }
 
 .tabbable-custom .nav-tabs > li.active { 
-  border-top: 3px solid #d12610; 
+  /*border-top: 3px solid #d12610; */
   margin-top: 0; 
   position: relative; 
 }
@@ -2766,7 +2771,6 @@ Dashboard stats
 } 
 
 .dashboard-stat.yellow {
-  background-color: #ffb848;
 }
 
 .dashboard-stat.yellow .more { 
