@@ -166,3 +166,15 @@
     border-top: 3px solid #368ee0;
     text-align: center;
 }
+
+.user-actions{
+    margin-bottom: 20px;
+}
+.user-actions button{
+    margin-right: 20px;
+}
+.page-title {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
