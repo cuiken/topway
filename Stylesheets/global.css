@@ -1,0 +1,182 @@
+
+/** 重置样式 **/
+
+/** 清除内外边距 **/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,/* structural elements 结构元素 */ dl,dt,dd,ul,ol,li,/* list elements 列表元素 */ pre,/* text formatting elements 文本格式元素 */ form,fieldset,legend,button,input,textarea,/* form elements 表单元素 */ th,td,/* table elements 表格元素 */ img/* img elements 图片元素 */ {
+	border:medium none;
+	margin:0;
+	padding:0;
+	outline:none;
+	font-family: Arial, Helvetica, sans-serif,'微软雅黑';
+	color: #333333;
+}
+/** 设置默认字体 **/
+body,button,input,select,textarea {
+	font:12px/1.5 Arial,'微软雅黑',tahoma,Srial,helvetica,sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+}
+em {
+	font-style:normal;
+}
+/** 重置列表元素 **/
+ul,ol {
+	list-style:none;
+}
+/** 重置超链接元素 **/
+a {
+	text-decoration:none;
+}
+a:focus {
+	outline:none;
+}
+a:hover {
+	text-decoration:none;
+}
+/** 重置图片元素 **/
+img {
+	border:0px;
+}
+/** 重置表格元素 **/
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+/** 页面框架样式 **/
+html {
+	height: 100%;
+}
+body {
+	min-width:1244px;
+	height: 100%;
+}
+.fn_clear:after {
+	visibility:hidden;
+	display:block;
+	font-size:0;
+	content:" ";
+	clear:both;
+	height:0
+}
+.fn_clear {
+	zoom:1
+}
+.fn_hide {
+	display:none
+}
+.fn_show {
+	display:block;
+}
+.fn_left,.fn_right {
+	display:inline
+}
+.fn_left {
+	float:left;
+}
+.fn_right {
+	float:right
+}
+/** 设置默认手型 **/
+.cur {
+	cursor:pointer
+}
+/*================== wrapper ======================*/
+.wrapper {
+	position:relative;
+	width:100%;
+	height:100%;
+	background:url(../images/background.png) repeat;
+}
+.bt_area {
+	position:relative;
+}
+.tip {
+	position:absolute;
+	top:0;
+	right:-120px;
+	background:url(../images/tip_bg.png) no-repeat;
+	width:109px;
+	height:25px;
+	line-height:25px;
+	text-align:left;
+	text-indent:35px;
+	color:#ffffff;
+}
+/*.nav_now_line {
+	background:url(../images/vw/nav_now_line.png) left top repeat-x;
+}
+*/
+.nav_now_line {
+	background:url(../images/vw/nav_now_line.png) left top repeat-x;
+}
+/*================== Header 页面顶部样式======================*/
+.header {
+	position:relative;
+	height:120px;
+	background:url(../images/header_background.png) left top repeat-x;
+	width:100%;
+	white-space:nowrap;
+	clear:both;
+	border: 0;
+}
+
+.header div.left_logo {
+	float:left;
+	width:100px;
+	height:50px;
+	margin: 30px 0 0 70px;
+}
+
+.header div.left_logo_1{
+	float:left;
+	width:477px;
+	height:50px;
+	margin: 30px 0 0 25px;
+}
+
+.header ul.right_logo {
+	width:100px;
+	height:80px;
+}
+.header ul.nav {
+	float:right;
+	display:block;
+	height:80px;
+}
+.header ul.nav li {
+	float:left;
+}
+.header ul.nav li a {
+	color:#41545e;
+}
+.header ul.nav li a:hover {
+	color:#ff871f;
+	text-decoration:underline;
+}
+.welcome_info,.line,.top_menu {
+	padding-left:5px;
+	padding-right:5px;
+	line-height:80px;
+	color:#9aa5af;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+.welcome_info em {
+	color:#2274ac;
+	font-style:normal;
+}
+.top_menu {
+	color:#41545e;
+}
+/*==================footer==================*/
+.footer {
+	width:100%;
+	clear:both;
+	height:43px;
+	border-top:#bbbbbb solid 1px;
+	font-size:12px;
+	text-align:center;
+	color:#9aa5af;
+	line-height:40px;
+}
