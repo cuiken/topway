@@ -139,10 +139,8 @@
     border-bottom: 1px solid #eaeaea;
 }
 
-.news-list .desc{
-    padding-top: 4px;
-    padding-bottom: 5px;
-    overflow: hidden;
+.news-list .date{
+   float: right;
 }
 
 .footer{
