@@ -123,28 +123,46 @@
 #profile .tips p {
     padding: 10px 0;
 }
-#news .title{
+
+#news .title {
     border-bottom: 1px dashed #eee;
     margin-bottom: 10px;
     padding-bottom: 5px;
 }
-#news .news-list{
+
+.news-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-#news .news-list li{
+
+.news-list li {
     position: relative;
     padding: 10px 5px;
     border-bottom: 1px solid #eaeaea;
 }
 
-.news-list .date{
-   float: right;
+#approval .title {
+    text-align: center;
+    background: #368ee0;
+    color: #fff;
+    padding: 10px 0;
 }
 
-.footer{
-    padding: 15px ;
+#approval hr {
+    margin-bottom: 5px;
+}
+
+#approval .news-list li {
+    border: 0;
+}
+
+#approval .news-list li:nth-child(odd) {
+    background: #097981;
+}
+
+.footer {
+    padding: 15px;
     border-top: 3px solid #368ee0;
     text-align: center;
 }
