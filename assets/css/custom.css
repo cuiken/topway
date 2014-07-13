@@ -11,13 +11,13 @@
     min-height: 70px;
 }
 
+.header .navbar-nav > li > a {
+    padding: 25px 12px;
+}
+
 #top-nav {
     background: #368ee0;
 }
-
-/*#top-nav a{*/
-/*color: #fff;*/
-/*}*/
 
 #top-nav .nav.navbar-nav {
     margin-left: 100px;
@@ -142,6 +142,7 @@
 }
 
 .footer{
+    padding: 15px ;
     border-top: 3px solid #368ee0;
     text-align: center;
 }
