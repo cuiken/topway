@@ -35,8 +35,8 @@ Reset and overrides
 ***/
 /* general body settings */
 body { 
-  color: #000; 
-  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-family: '微软雅黑','microsoft yahei','Open Sans', sans-serif;
   padding: 0px !important;
   margin: 0px !important;
   font-size:13px; 
@@ -92,7 +92,7 @@ h3,
 h4, 
 h5, 
 h6 {
-  font-family: 'Open Sans', sans-serif,'微软雅黑';
+  font-family: '微软雅黑','microsoft yahei','Open Sans', sans-serif;
   font-weight: 300 !important;
 }
 
@@ -584,10 +584,6 @@ Page sidebar
   margin: 0;
   padding: 0; 
   border: 0px;
-  background: #fafafa;
-  height: 70px;
-  border-bottom: 1px solid #e0e0e0;
-  line-height: 70px;
 }
 
 .page-sidebar-menu > li.start > a {
@@ -607,7 +603,7 @@ Page sidebar
   padding: 0px 25px;
   text-decoration: none;
   font-size: 14px;
-  font-weight: 550;
+  font-weight: 300;
   color: #9a9999;
 }
 
@@ -2495,7 +2491,7 @@ Custom tabs
 }
 
 .tabbable-custom .nav-tabs > li.active { 
-  /*border-top: 3px solid #d12610; */
+  border-top: 3px solid #d12610; 
   margin-top: 0; 
   position: relative; 
 }
@@ -2771,6 +2767,7 @@ Dashboard stats
 } 
 
 .dashboard-stat.yellow {
+  background-color: #ffb848;
 }
 
 .dashboard-stat.yellow .more { 

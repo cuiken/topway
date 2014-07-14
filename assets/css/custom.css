@@ -1,13 +1,4 @@
 /* here you can put your own css to customize and override the theme */
-/** 清除内外边距 **/
-body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,/* structural elements 结构元素 */ dl,dt,dd,ul,ol,li,/* list elements 列表元素 */ pre,/* text formatting elements 文本格式元素 */ form,fieldset,legend,button,input,textarea,/* form elements 表单元素 */ th,td,/* table elements 表格元素 */ img/* img elements 图片元素 */ {
-    border:medium none;
-    margin:0;
-    padding:0;
-    outline:none;
-    font-family: Arial, Helvetica, sans-serif,'microsoft yahei','微软雅黑';
-    color: #333333;
-}
 
 .header {
     width: 100%;
@@ -40,6 +31,15 @@ body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,/* structural elements 结构元素 */ dl
     min-height: 760px;
 }
 
+.tabbable-custom .nav-tabs > li.active {
+    border-top:0;
+}
+.page-sidebar-menu > li {
+    background: #fafafa;
+    height: 70px;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 70px;
+}
 .page-sidebar-menu .navbar-header {
     display: block;
     position: relative;
