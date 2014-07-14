@@ -31,9 +31,6 @@
     min-height: 760px;
 }
 
-.tabbable-custom .nav-tabs > li.active {
-    border-top:0;
-}
 .page-sidebar-menu > li {
     background: #fafafa;
     height: 70px;
@@ -110,8 +107,7 @@
 
 .tabbable-custom .nav-tabs > li.active {
     border-bottom: 2px solid #368ee0;
-    margin-top: 0;
-    position: relative;
+    border-top: 3px solid transparent;
 }
 
 .tabbable-custom .nav-tabs>li.active>a,.tabbable-custom .nav-tabs>li.active>a:hover,.tabbable-custom .nav-tabs>li.active>a:focus{
