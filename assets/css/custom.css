@@ -269,3 +269,19 @@
     padding-bottom: 15px;
     margin-bottom: 25px;
 }
+
+div.dash-icon{
+    margin-top: 20px;
+    float: left;
+    width: 58px;
+    height: 58px;
+    text-align: right;
+}
+
+div.dash-icon i{
+     font-size: 20px;
+    color: #666666;
+ }
+div.dash-cont{
+    border-bottom:  1px solid #e2e2e2;
+}
