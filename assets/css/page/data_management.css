@@ -1,0 +1,11 @@
+.data-management .search{
+    border: 1px solid #eee;
+}
+
+.data-management .content{
+    border-bottom: 1px dashed #eee;
+    padding: 10px;
+}
+.data-management .col-md-12:last-child .content{
+    border-bottom: 0;
+}
