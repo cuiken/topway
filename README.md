@@ -7,11 +7,11 @@ Top way
 
 * *css* 目录下 *page* 目录存放页面级样式文件。文件名称需和 ```html``` 文件名称保持一致。
 
-* 每个 ```html``` 页面理论上包含一个 *根类名* 或 *根ID*。每个页面级样式理论上以 *根类名*开始。如：
+* 每个 ```html``` 页面理论上包含一个 *根类名* 或 *根ID* ,每个页面级样式理论上以 *根类名*开始。如：
 
 ***
 
-有login.html 如需要定义样式 ，可 修改``` <body class="login"> ``` ，page 目录下需包含一个 *login.css* ， *login.css* 里选择器都以 ``` .login ``` 开头进行路径的选择
+有login.html 如需要定义样式 ，可 修改``` <body class="login"> ``` ，page 目录下新建一个 *login.css* ， *login.css* 里选择器都以 ``` .login ``` 开头进行路径的选择
 
 ***
 
