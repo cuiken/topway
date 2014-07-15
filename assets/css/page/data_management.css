@@ -9,3 +9,27 @@
 .data-management .col-md-12:last-child .content{
     border-bottom: 0;
 }
+
+.navbar-form.navbar-right:last-child{
+    margin-right: 0;
+}
+
+.btn-default{
+    color: #fff;
+    background-color: #f9cf07;
+    border: none;
+}
+
+ .table {
+    text-align: center;
+     margin-top: 18px;
+}
+
+ .table thead tr th{
+    text-align:  center;
+}
+
+.content label.col-md-{
+    margin-right: 12px;
+    width: 90px;
+}
