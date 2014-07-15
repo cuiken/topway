@@ -127,3 +127,8 @@
     border-top: 1px solid #e0e0e0;
     text-align: center;
 }
+.page-title {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
