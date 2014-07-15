@@ -285,3 +285,19 @@ div.dash-icon i{
 div.dash-cont{
     border-bottom:  1px solid #e2e2e2;
 }
+#top-nav .nav.navbar-nav a {
+    color: #fff;
+}
+
+#top-nav .nav.navbar-nav a:hover {
+    color: #428bca;
+}
+
+#top-nav .dropdown.open > a {
+    background-color: #eee !important;
+    color: #428bca !important;
+}
+
+#top-nav .dropdown-menu a {
+    color: #333 !important;
+}
