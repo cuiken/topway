@@ -17,8 +17,12 @@ hr.hr_line{
     margin: 8px 0 20px;
 }
 
-li.i_role{
+.col-md-12 .table {
+    text-align: center;
+}
 
+.col-md-12 .table thead tr th{
+    text-align:  center;
 }
 
 a.role_tab{
@@ -42,13 +46,8 @@ ul.nav-pills{
     background-color: #fff;
 }
 
-.tab-content .table {
-    text-align: center;
-}
 
-.tab-content .table thead tr th{
-    text-align:  center;
-}
+
 
 
 
