@@ -136,13 +136,13 @@
     margin-bottom: 5px;
 }
 
-#approval .news-list li {
-    border: 0;
-}
+/*#approval .news-list li {*/
+    /*border: 0;*/
+/*}*/
 
-#approval .news-list li:nth-child(odd) {
-    background: #eee;
-}
+/*#approval .news-list li:nth-child(odd) {*/
+    /*background: #eee;*/
+/*}*/
 
 .user-actions {
     margin-bottom: 20px;
@@ -158,19 +158,10 @@
     margin-bottom: 25px;
 }
 
-div.dash-icon {
-    margin-top: 20px;
-    float: left;
-    width: 58px;
-    height: 58px;
-    text-align: right;
-}
-
-div.dash-icon i {
+.dash-icon i {
     font-size: 20px;
     color: #666666;
 }
-
-div.dash-cont {
-    border-bottom: 1px solid #e2e2e2;
+.dash-icon div{
+    text-align: right;
 }
