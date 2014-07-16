@@ -21,20 +21,35 @@
     <!-- BEGIN THEME STYLES -->
     <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css"/>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
-    <link href="assets/css/style-non-responsive.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
     <link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
     <!-- END THEME STYLES -->
     <!-- BEGIN PAGE LEVEL STYLE -->
     <link href="assets/css/page/index.css" rel="stylesheet" type="text/css"/>
     <!-- END PAGE LEVEL STYLE -->
     <!--[if lt IE 9]>
+    <script src="assets/plugins/modernizr-2.6.2.min.js"></script>
     <script src="assets/plugins/respond.min.js"></script>
     <script src="assets/plugins/excanvas.min.js"></script>
-    <script src="assets/plugins/modernizr-2.6.2.min.js"></script>
     <![endif]-->
 </head>
 <body class="index">
-<div class="header navbar navbar-default navbar-static-top no-scrolling-fixed">
+<header>
+    <!--[if lte IE 9]>
+    <div id="warning_info" class="text-warning fade in mb_0">
+        <button data-dismiss="alert" class="close_btn" type="button">×</button>
+        <strong>您正在使用低版本浏览器，</strong> 在本页面的显示效果可能有差异。
+        建议您升级到
+        <a href="http://www.google.cn/intl/zh-CN/chrome/" target="_blank">Chrome</a>
+        或以下浏览器：
+        <a href="www.mozilla.org/en-US/firefox/‎" target="_blank">Firefox</a> /
+        <a href="http://www.apple.com.cn/safari/" target="_blank">Safari</a> /
+        <a href="http://www.opera.com/" target="_blank">Opera</a> /
+        <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">
+            Internet Explorer 10</a>
+    </div>
+    <![endif]-->
+    <div class="header navbar navbar-default navbar-static-top no-scrolling-fixed">
     <!-- BEGIN TOP NAVIGATION BAR -->
     <div class="header-inner">
         <!-- BEGIN LOGO -->
@@ -62,6 +77,7 @@
     </div>
     <!-- END TOP NAVIGATION BAR -->
 </div>
+</header>
 <!-- BEGIN TOP NAVIGATION MENU -->
 <nav id="top-nav">
     <div class="navbar-collapse collapse">
@@ -139,8 +155,7 @@
 <div class="page-sidebar-wrapper">
     <div class="page-sidebar navbar-collapse collapse">
         <ul class="page-sidebar-menu">
-            <!--<li class="navbar-header">常用功能</li>-->
-            <li><a href="#"><i class="fa fa-comments-o"></i>在线沟通</a></li>
+            <li class="start"><a href="#"><i class="fa fa-comments-o"></i>在线沟通</a></li>
             <li><a href="#"><i class="fa fa-bullhorn"></i>公告</a></li>
             <li><a href="#"><i class="fa fa-envelope-o"></i>站内信</a></li>
             <li><a href="#"><i class="fa fa-lightbulb-o"></i>常见问题</a></li>
