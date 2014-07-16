@@ -13,7 +13,7 @@
 
 .row div.col-md-3 {
     background: url(../../img/dateTempalte.png) top no-repeat !important;
-    width: 170px;
+    /*width: 170px;*/
     height: 152px;
     border-left: 1px solid #e2e2e2;
 }
