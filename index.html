@@ -7,7 +7,7 @@
 <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js"> <!--<![endif]-->
-<head lang="en">
+<head>
     <meta charset="UTF-8">
     <title>首页</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,6 +27,11 @@
     <!-- BEGIN PAGE LEVEL STYLE -->
     <link href="assets/css/page/index.css" rel="stylesheet" type="text/css"/>
     <!-- END PAGE LEVEL STYLE -->
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <script src="assets/plugins/excanvas.min.js"></script>
+    <script src="assets/plugins/modernizr-2.6.2.min.js"></script>
+    <![endif]-->
 </head>
 <body class="index">
 <div class="header navbar navbar-default navbar-static-top no-scrolling-fixed">
@@ -126,8 +131,6 @@
                 <li><a href="#">督导小组</a></li>
             </ul>
         </div>
-
-
     </div>
 </nav>
 <!-- END TOP NAVIGATION MENU -->
@@ -290,16 +293,16 @@
                         <div class="dash-cont">
                             <div class="dashboard-stat dash-icon">
                                 <i class="fa fa-envelope-o"></i>
-                                <!--<p>来信</p>-->
+
                             </div>
                             <div class="dashboard-stat dash-icon">
                                 <i class="fa fa-comment-o"></i>
 
-                                <!--<p>新消息</p>-->
+
                             </div>
                             <div class="dashboard-stat dash-icon">
                                 <i class="fa fa-calendar"></i>
-                                <!--<p>督导日程</p>-->
+
                             </div>
                         </div>
                     </div>
@@ -308,7 +311,7 @@
                     <div id="approval">
                         <!--<h4>在线审批</h4>-->
                         <div class="title">
-                            <span class="title">在线审批-学生作业审批</span>
+                            <span>在线审批-学生作业审批</span>
 
                         <span class="pull-right">
                             <i class="fa fa-table"></i> <a href="#">查看全部</a></span>
@@ -346,8 +349,7 @@
     </div>
 </div>
 <!-- END CONTENT -->
-
-
+</div>
 <!-- BEGIN FOOTER -->
 <div class="footer">
     联系我们 | 合作机构
@@ -355,11 +357,6 @@
 <!-- END FOOTER -->
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 <!-- BEGIN CORE PLUGINS -->
-<!--[if lt IE 9]>
-<script src="assets/plugins/respond.min.js"></script>
-<script src="assets/plugins/excanvas.min.js"></script>
-<![endif]-->
-
 <script src="assets/plugins/pace.min.js"></script>
 <script src="assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
 <script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
