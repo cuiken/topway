@@ -1,53 +1,39 @@
 
-.btn-primary{
-    color:#fff;
-    background-color: #f9cf07;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary{
-    color:#fff;
-    background-color: #f9bd07;
-}
-
-.btn{
+.btn {
     margin-right: 6px;
 }
 
-hr.hr_line{
+hr.hr_line {
     margin: 8px 0 20px;
 }
 
-li.i_role{
-
-}
-
-a.role_tab{
+a.role_tab {
     color: #555;
     background-color: #f6f6f6;
     border-top: 2px solid #368ee0;
     display: inline-block;
 }
 
-ul.nav-pills{
-    border-bottom:  1px solid #e0e0e0;
+ul.nav-pills {
+    border-bottom: 1px solid #e0e0e0;
 }
 
- .nav-tabs > li.active{
-     border-bottom:2px solid #368ee0;
-     border-top: 3px solid transparent
- }
-
-.nav-tabs > li.active a,.nav-tabs > li a:hover, .nav-tabs > li a:focus{
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     border: none;
     background-color: #fff;
+}
+
+.tabbable-custom .nav-tabs > li.active {
+    border-bottom: 2px solid #368ee0;
+    border-top: 3px solid transparent;
 }
 
 .tab-content .table {
     text-align: center;
 }
 
-.tab-content .table thead tr th{
-    text-align:  center;
+.tab-content .table thead tr th {
+    text-align: center;
 }
 
 
