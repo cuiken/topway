@@ -15,14 +15,14 @@
     background: url(../../img/dateTempalte.png) top no-repeat !important;
     /*width: 170px;*/
     height: 152px;
-    border-left: 1px solid #e2e2e2;
+    /*border-left: 1px solid #e2e2e2;*/
 }
 
 .row div.col-md-3 p.f_line {
     color: #fff;
     font-size: 25px;
     font-family: '微软雅黑', 'microsoft yahei';
-    margin-top: 10px;
+    margin-top: 19px;
     text-align: center;
 }
 
@@ -122,7 +122,7 @@
 #approval {
     background-color: #fafcff;
     border: 1px solid #d6e1ee;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 #approval .title {
