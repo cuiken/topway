@@ -7,9 +7,9 @@
 <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js"> <!--<![endif]-->
-<head lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>作业管理</title>
+    <title>督导日志</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 
@@ -24,42 +24,60 @@
     <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
     <link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
     <!-- END THEME STYLES -->
-    <link href="assets/css/page/data_management.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/page/dudao-anpai.css" rel="stylesheet" type="text/css"/>
+
     <!--[if lt IE 9]>
     <script src="assets/plugins/modernizr-2.6.2.min.js"></script>
     <script src="assets/plugins/respond.min.js"></script>
     <script src="assets/plugins/excanvas.min.js"></script>
     <![endif]-->
+
 </head>
-<body class="data-management">
-<div class="header navbar navbar-default navbar-static-top no-scrolling-fixed">
-    <!-- BEGIN TOP NAVIGATION BAR -->
-    <div class="header-inner">
-        <!-- BEGIN LOGO -->
-        <a class="navbar-brand" href="#">
-            <img src="assets/img/logo.png" alt="logo" width="100"/>
-        </a>
-        <!-- END LOGO -->
-
-        <!-- BEGIN TOP NAVIGATION MENU -->
-        <ul class="nav navbar-nav pull-right">
-
-            <li>
-                <a href="#">当前身份：校内监督</a>
-            </li>
-            <li>
-                <a href="#"><i class="fa fa-user"></i>欢迎您，hx123</a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-arrow-circle-right"></i>安全退出
-                </a>
-            </li>
-        </ul>
-        <!-- END TOP NAVIGATION MENU -->
+<body class="dudao">
+<header>
+    <!--[if lte IE 9]>
+    <div id="warning_info" class="text-warning fade in mb_0">
+        <button data-dismiss="alert" class="close_btn" type="button">×</button>
+        <strong>您正在使用低版本浏览器，</strong> 在本页面的显示效果可能有差异。
+        建议您升级到
+        <a href="http://www.google.cn/intl/zh-CN/chrome/" target="_blank">Chrome</a>
+        或以下浏览器：
+        <a href="www.mozilla.org/en-US/firefox/‎" target="_blank">Firefox</a> /
+        <a href="http://www.apple.com.cn/safari/" target="_blank">Safari</a> /
+        <a href="http://www.opera.com/" target="_blank">Opera</a> /
+        <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">
+            Internet Explorer 10</a>
     </div>
-    <!-- END TOP NAVIGATION BAR -->
-</div>
+    <![endif]-->
+    <div class="header navbar navbar-default navbar-static-top no-scrolling-fixed">
+        <!-- BEGIN TOP NAVIGATION BAR -->
+        <div class="header-inner">
+            <!-- BEGIN LOGO -->
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt="logo" width="100"/>
+            </a>
+            <!-- END LOGO -->
+
+            <!-- BEGIN TOP NAVIGATION MENU -->
+            <ul class="nav navbar-nav pull-right">
+
+                <li>
+                    <a href="#">当前身份：校内监督</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-user"></i>欢迎您，hx123</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-arrow-circle-right"></i>安全退出
+                    </a>
+                </li>
+            </ul>
+            <!-- END TOP NAVIGATION MENU -->
+        </div>
+        <!-- END TOP NAVIGATION BAR -->
+    </div>
+</header>
 <!-- BEGIN TOP NAVIGATION MENU -->
 <nav id="top-nav">
     <div class="navbar-collapse collapse">
@@ -158,136 +176,71 @@
                     <ul class="page-breadcrumb breadcrumb">
                         <li>
                             <i class="fa fa-home"></i>
-                            <a href="index.html">首页</a>
+                            <a href="#">督导管理</a>
                             <i class="fa fa-angle-right"></i>
                         </li>
                         <li>
-                            <a href="#">作业管理</a>
+                            <a href="dudao-anpai.html">督导安排</a>
+                            <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li>
+                            <a href="#">督导日志</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="row">
-                <div class="navbar-form navbar-right margin-bottom-10">
-                    <input class="form-control" type="text" placeholder="Search"/>
-                    <button class="btn btn-warning"><i class="fa fa-search"></i> 搜索</button>
-                    <button class="btn btn-warning"><i class="fa fa-download"></i> 导出</button>
+                <div class="col-md-12">
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                        <tr>
+                            <th>时间</th>
+                            <th>对象</th>
+                            <th>学号</th>
+                            <th>事项</th>
+                            <th>状态</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>2014-06-06 9:00-10:00</td>
+                            <td>Jack</td>
+                            <td>20140501</td>
+                            <td>个案实习督导 <i class="fa fa-circle red pull-right"></i></td>
+                            <td>已督导</td>
+                        </tr>
+                        <tr>
+                            <td>2014-06-06 9:00-10:00</td>
+                            <td>Jack</td>
+                            <td>20140501</td>
+                            <td>个案实习督导<i class="fa fa-circle blue pull-right"></i></td>
+                            <td>已督导</td>
+                        </tr>
+                        <tr>
+                            <td>2014-06-06 9:00-10:00</td>
+                            <td>Jack</td>
+                            <td>20140501</td>
+                            <td>个案实习督导<i class="fa fa-circle green pull-right"></i></td>
+                            <td>已督导</td>
+                        </tr>
+                        <tr>
+                            <td>2014-06-06 9:00-10:00</td>
+                            <td>Jack</td>
+                            <td>20140501</td>
+                            <td>个案实习督导<i class="fa fa-circle yellow pull-right"></i></td>
+                            <td>已督导</td>
+                        </tr>
+                        <tr>
+                            <td>2014-06-06 9:00-10:00</td>
+                            <td>Jack</td>
+                            <td>20140501</td>
+                            <td>个案实习督导<i class="fa fa-circle orange pull-right"></i></td>
+                            <td>已督导</td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-            <div class="search">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="content">
-                            <label class="col-md-">作业类型：</label>
-
-                            <label class="checkbox-inline">
-                                <input type="checkbox" value="option1"> 实习周记
-                            </label>
-                            <label class="checkbox-inline">
-                                <input type="checkbox"  value="option2"> 个案结案摘要报告
-                            </label>
-                            <label class="checkbox-inline">
-                                <input type="checkbox" value="option3"> 个案结案摘要报告
-                            </label>
-                        </div>
-                    </div>
-
-                    <div class="col-md-12">
-                        <div class="content">
-                            <label class="col-md-">班级：</label>
-                            <label class="checkbox-inline">
-                                <input type="checkbox" value="option1"> 2011
-                            </label>
-                            <label class="checkbox-inline">
-                                <input type="checkbox"  value="option2"> 个案结案摘要报告
-                            </label>
-                            <label class="checkbox-inline">
-                                <input type="checkbox" value="option3"> 个案结案摘要报告
-                            </label>
-                        </div>
-                    </div>
-
-                    <div class="col-md-12">
-                        <div class="content">
-                            <label class="col-md-">提交时间：</label>
-                            <label class="checkbox-inline">
-                                <input type="checkbox" value="option1"> 实习周记
-                            </label>
-                            <label class="checkbox-inline">
-                                <input type="checkbox"  value="option2"> 个案结案摘要报告
-                            </label>
-                            <label class="checkbox-inline">
-                                <input type="checkbox" value="option3"> 个案结案摘要报告
-                            </label>
-                        </div>
-                    </div>
-
-                    <div class="col-md-12">
-                        <div class="content">
-                            <label class="col-md-">实习点：</label>
-                            <label class="checkbox-inline">
-                                <input type="checkbox" value="option1"> 实习周记
-                            </label>
-                            <label class="checkbox-inline">
-                                <input type="checkbox"  value="option2"> 个案结案摘要报告
-                            </label>
-                            <label class="checkbox-inline">
-                                <input type="checkbox" value="option3"> 个案结案摘要报告
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <table class="table table-bordered table-striped">
-                <thead>
-                <tr>
-                    <th><input type="checkbox"/></th>
-                    <th>班级</th>
-                    <th>姓名</th>
-                    <th>学号</th>
-                    <th>所在机构</th>
-                    <th>作业标题</th>
-                    <th>作业类型</th>
-                    <th>提交时间</th>
-                    <th>状态</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td><input type="checkbox"/></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox"/></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox"/></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                </tbody>
-            </table>
         </div>
     </div>
     <!-- END CONTENT -->
