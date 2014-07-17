@@ -120,7 +120,7 @@
 }
 
 #approval {
-    background-color: #fafcff;
+    /*background-color: #fafcff;*/
     border: 1px solid #d6e1ee;
     margin-top: 50px;
 }
@@ -160,7 +160,7 @@
 
 .dash-icon i {
     font-size: 20px;
-    color: #666666;
+    color: #fad30a;
 }
 .dash-icon div{
     text-align: right;

@@ -40,6 +40,10 @@
     color: #333 !important;
 }
 
+li a{
+    color: #333;
+}
+
 
 .page-sidebar-menu {
     /*border-top: 2px solid #368ee0;*/
@@ -59,6 +63,12 @@ ul.page-sidebar-menu > li > a {
     font-weight: 400;
 }
 
+.page-sidebar-menu > li > a i {
+    font-size: 16px;
+    margin-right: 10px;
+    text-shadow:none;
+    color: #368ee0;
+}
 
 .page-content {
     border-left: 1px solid #e2e2e2 !important;
