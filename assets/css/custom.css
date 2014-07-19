@@ -158,3 +158,6 @@ button.close_btn {
     opacity: .2;
     filter: alpha(opacity=20);
 }
+.badge{
+    background-color:#f9cf07;
+}
