@@ -36,7 +36,39 @@ ul.nav-pills {
     text-align: center;
 }
 
+.profile-home .nav-pills{
+    border: none;
+}
 
+.profile-home .thumbnail{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 0;
+}
+.profile-home hr{
+    margin: 15px 0;
+    border-top: 1px dashed #E0DFDF;
+    border-bottom: 1px dashed #FEFEFE;
+}
 
+.profile-home .share-item{
+    padding: 20px 0;
+    border-bottom: 1px dashed #eee;
+}
 
-
+.profile-home .col-md-{
+    margin-right: 12px;
+    width: 90px;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+}
+.profile-home .photo img{
+    width: 190px;
+}
+.profile-home .photo .thumbnail{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title>个人主页</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <!-- END GLOBAL MANDATORY STYLES -->
+
+    <!-- BEGIN THEME STYLES -->
+    <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
+    <!-- END THEME STYLES -->
+    <link href="assets/css/page/user-account.css" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/modernizr-2.6.2.min.js"></script>
+    <script src="assets/plugins/respond.min.js"></script>
+    <script src="assets/plugins/excanvas.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="profile-home">
+<header>
+    <!--[if lte IE 9]>
+    <div id="warning_info" class="text-warning fade in mb_0">
+        <button data-dismiss="alert" class="close_btn" type="button">×</button>
+        <strong>您正在使用低版本浏览器，</strong> 在本页面的显示效果可能有差异。
+        建议您升级到
+        <a href="http://www.google.cn/intl/zh-CN/chrome/" target="_blank">Chrome</a>
+        或以下浏览器：
+        <a href="www.mozilla.org/en-US/firefox/‎" target="_blank">Firefox</a> /
+        <a href="http://www.apple.com.cn/safari/" target="_blank">Safari</a> /
+        <a href="http://www.opera.com/" target="_blank">Opera</a> /
+        <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">
+            Internet Explorer 10</a>
+    </div>
+    <![endif]-->
+    <div class="header navbar navbar-default navbar-static-top no-scrolling-fixed">
+        <!-- BEGIN TOP NAVIGATION BAR -->
+        <div class="header-inner">
+            <!-- BEGIN LOGO -->
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt="logo" width="100"/>
+            </a>
+            <!-- END LOGO -->
+
+            <!-- BEGIN TOP NAVIGATION MENU -->
+            <ul class="nav navbar-nav pull-right">
+
+                <li>
+                    <a href="#">当前身份：校内监督</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-user"></i>欢迎您，hx123</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-arrow-circle-right"></i>安全退出
+                    </a>
+                </li>
+            </ul>
+            <!-- END TOP NAVIGATION MENU -->
+        </div>
+        <!-- END TOP NAVIGATION BAR -->
+    </div>
+</header>
+<!-- BEGIN TOP NAVIGATION MENU -->
+<nav id="top-nav">
+    <div class="navbar-collapse collapse">
+        <div class="pull-right">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#">首页</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0"
+                       data-close-others="false" href="#">
+                        个人主页
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">分享</a></li>
+                        <li><a href="#">相册</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0"
+                       data-close-others="false" href="#">
+                        督导管理
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">督导安排</a></li>
+                        <li><a href="#">远程督导</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0"
+                       data-close-others="false" href="#">
+                        资料管理
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">作业管理</a></li>
+                        <li><a href="#">自定义模板</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0"
+                       data-close-others="false" href="#">
+                        实习分配
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">实习点管理</a></li>
+                        <li><a href="#">实习点分配</a></li>
+                        <li><a href="#">任务分配</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0"
+                       data-close-others="false" href="#">
+                        成绩管理
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">平时成绩</a></li>
+                        <li><a href="#">期末成绩</a></li>
+                        <li><a href="#">荣誉奖励</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">更多...</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li><a href="#">用户管理</a></li>
+                <li><a href="#">班级管理</a></li>
+                <li><a href="#">督导小组</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+</nav>
+<!-- END TOP NAVIGATION MENU -->
+<div class="page-container">
+    <!--BEGIN LEFT MENU-->
+    <div class="page-sidebar-wrapper">
+        <div class="page-sidebar navbar-collapse collapse">
+            <ul class="page-sidebar-menu">
+                <!--<li class="navbar-header">常用功能</li>-->
+                <li class="start"><a href="#"><i class="fa fa-comments-o"></i>在线沟通</a></li>
+                <li><a href="#"><i class="fa fa-bullhorn"></i>公告</a></li>
+                <li><a href="#"><i class="fa fa-envelope-o"></i>站内信</a></li>
+                <li><a href="#"><i class="fa fa-lightbulb-o"></i>常见问题</a></li>
+                <li><a href="#"><i class="fa fa-wrench"></i>帮助</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--END LEFT MENU -->
+    <!-- BEGIN CONTENT -->
+    <div class="page-content-wrapper">
+        <div class="page-content">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <ul class="page-breadcrumb breadcrumb">
+                        <li>
+                            <i class="fa fa-home"></i>
+                            <a href="index.html">首页</a>
+                            <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li>
+                            <a href="#">个人主页</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="assets/img/touxiang.png" width="120" alt="用户头像">
+                </div>
+                <div class="col-md-10">
+                    <div class="col-md-6" style="padding-left: 0;">
+                        <ul class="nav nav-pills">
+                            <li class="active"><a class="yellow" href="#">个人主页</a></li>
+                            <li><a href="#">相册</a></li>
+                            <li><a href="#">分享</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="form-horizontal">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Search"/>
+                            </div>
+                            <button class="btn yellow"><i class="fa fa-search"></i> 搜索</button>
+                        </form>
+                    </div>
+                    <div class="clearfix"></div>
+                    <hr/>
+                </div>
+                <div class="col-md-6">
+                    <span class="margin-right-10"> <i class="fa fa-camera"></i> 传照片</span>
+
+                    <i class="fa fa-share-alt"></i> 发分享
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 margin-top-20">
+                    <div class="tabbable tabbable-custom tabbable-full-width">
+                        <ul class="nav nav-tabs">
+                            <li class="active">
+                                <a href="#tab_2_1" data-toggle="tab">全部</a>
+                            </li>
+                            <li class="">
+                                <a href="#tab_2_2" data-toggle="tab">好友相册</a>
+                            </li>
+                            <li class="">
+                                <a href="#tab_2_3" data-toggle="tab">好友分享</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade active in" id="tab_2_1">
+                                <div>
+                                    <div class="margin-bottom-20">
+                                        <a href="#">小甲</a>同学上传了3张照片至： <a href="#">《公益活动》</a>
+                                        <span class="pull-right">
+                                            <i class="fa fa-comment"></i> 回复&nbsp;
+                                            <i class="fa fa-share-alt"></i> 分享
+                                        </span>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="thumbnail">
+                                            <img src="assets/img/practice/u14.png.jpg" alt="img"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="thumbnail">
+                                            <img src="assets/img/practice/u14.png.jpg" alt="img"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="thumbnail">
+                                            <img src="assets/img/practice/u14.png.jpg" alt="img"/>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <hr/>
+                                </div>
+                                <div>
+                                    <div class="margin-bottom-20">
+                                        <a href="#">小乙</a>同学发表了日志： <a href="#">对实习的想法</a>
+                                        <span class="pull-right">
+                                            <i class="fa fa-comment"></i> 回复&nbsp;
+                                            <i class="fa fa-share-alt"></i> 分享
+                                        </span>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <p>
+                                            本次实习，一定要注重培养良好的人际关系，提高自身应激处理能力。走出大学校园，我们必然要面对复杂的人际关系，
+                                            而且社工站是一个外向型机构，需要打开门做活动，这样，我们不可避免的接触形形色色的人，为人处世、
+                                            待人接物方面就是一个很大的考验，而且人无完人，总是有些情况事先无法注意到，这对于我们的应激处理能力是个很大的考验。……
+                                        </p>
+                                        <a href="#">查看全部</a>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <hr/>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab_2_2">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="content">
+                                            <label class="col-md-">年级：</label>
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#">2010级</a></li>
+                                                <li><a href="#">2010级</a></li>
+                                                <li><a href="#">2010级</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="content">
+                                            <label class="col-md-">服务方法：</label>
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#">个案工作</a></li>
+                                                <li><a href="#">个案工作</a></li>
+                                                <li><a href="#">个案工作</a></li>
+                                                <li><a href="#">个案工作</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="content">
+                                            <label class="col-md-">时间：</label>
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#">一至二个月</a></li>
+                                                <li><a href="#">一至二个月</a></li>
+                                                <li><a href="#">一至二个月</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row photo">
+                                    <div class="col-md-4">
+                                        <div class="col-md-7">
+                                            <img src="assets/img/practice/u14.png.jpg" alt="img"/>
+                                           <h5 class="margin-top-10">
+                                               认识自我，走出困境
+                                           </h5>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <p>作者: 历史下</p>
+                                            <p>时间：2015-09-23</p>
+                                            <p>观看此数：43</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="col-md-7">
+                                            <img src="assets/img/practice/u14.png.jpg" alt="img"/>
+                                            <h5 class="margin-top-10">
+                                                认识自我，走出困境
+                                            </h5>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <p>作者: 历史下</p>
+                                            <p>时间：2015-09-23</p>
+                                            <p>观看此数：43</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="col-md-7">
+                                            <img src="assets/img/practice/u14.png.jpg" alt="img"/>
+                                            <h5 class="margin-top-10">
+                                                认识自我，走出困境
+                                            </h5>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <p>作者: 历史下</p>
+                                            <p>时间：2015-09-23</p>
+                                            <p>观看此数：43</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab_2_3">
+                                <div class="col-md-12 share-item">
+                                    <div class="col-md-3">XX实习感想</div>
+                                    <div class="col-md-3">张三</div>
+                                    <div class="col-md-3">2014-05-23</div>
+                                    <div class="col-md-3"><a href="#">分享</a></div>
+                                </div>
+                                <div class="col-md-12 share-item">
+                                    <div class="col-md-3">XX实习感想</div>
+                                    <div class="col-md-3">张三</div>
+                                    <div class="col-md-3">2014-05-23</div>
+                                    <div class="col-md-3"><a href="#">分享</a></div>
+                                </div>
+                                <div class="col-md-12 share-item">
+                                    <div class="col-md-3">XX实习感想</div>
+                                    <div class="col-md-3">张三</div>
+                                    <div class="col-md-3">2014-05-23</div>
+                                    <div class="col-md-3"><a href="#">分享</a></div>
+                                </div>
+                                <div class="col-md-12 share-item">
+                                    <div class="col-md-3">XX实习感想</div>
+                                    <div class="col-md-3">张三</div>
+                                    <div class="col-md-3">2014-05-23</div>
+                                    <div class="col-md-3"><a href="#">分享</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END CONTENT -->
+</div>
+
+<!-- BEGIN FOOTER -->
+<div class="footer">
+    联系我们 | 合作机构
+</div>
+<!-- END FOOTER -->
+
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+<!-- BEGIN CORE PLUGINS -->
+
+<script src="assets/plugins/pace.min.js"></script>
+<script src="assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js"
+        type="text/javascript"></script>
+<script src="assets/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+</body>
+</html>
