@@ -72,6 +72,15 @@ ul.nav-pills {
 .profile-home .photo .thumbnail{
     margin-bottom: 10px;
 }
+
+.col-md-2 h4{
+    font-weight: bold;
+}
+
+.margiv-top-10{
+    margin-top: 40px;
+    padding-left: 5px;
+}
 .profile-home .username{
     padding-left: 35px;
 }
