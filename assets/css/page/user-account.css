@@ -84,3 +84,6 @@ ul.nav-pills {
 .profile-home .username{
     padding-left: 35px;
 }
+.user_add .page-breadcrumb.breadcrumb > li+li:before {
+    display: none;
+}

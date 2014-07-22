@@ -31,279 +31,91 @@
     <script src="assets/plugins/excanvas.min.js"></script>
     <![endif]-->
 </head>
-<body class="template-management">
-<div class="header navbar navbar-default navbar-static-top no-scrolling-fixed">
-    <!-- BEGIN TOP NAVIGATION BAR -->
-    <div class="header-inner">
-        <!-- BEGIN LOGO -->
-        <a class="navbar-brand" href="#">
-            <img src="assets/img/logo.png" alt="logo" width="100"/>
-        </a>
-        <!-- END LOGO -->
+<body class="user_add">
 
-        <!-- BEGIN TOP NAVIGATION MENU -->
-        <ul class="nav navbar-nav pull-right">
+<!-- BEGIN CONTENT -->
+<div class="container">
+    <div class="content margin-top-20">
+        <div class="row">
+            <div class="col-md-12">
 
-            <li>
-                <a href="#">当前身份：校内监督</a>
-            </li>
-            <li>
-                <a href="#"><i class="fa fa-user"></i>欢迎您，hx123</a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-arrow-circle-right"></i>安全退出
-                </a>
-            </li>
-        </ul>
-        <!-- END TOP NAVIGATION MENU -->
-    </div>
-    <!-- END TOP NAVIGATION BAR -->
-</div>
-<!-- BEGIN TOP NAVIGATION MENU -->
-<nav id="top-nav">
-    <div class="navbar-collapse collapse">
-        <div class="pull-right">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="#">首页</a>
-                </li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0"
-                       data-close-others="false" href="#">
-                        个人主页
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">分享</a></li>
-                        <li><a href="#">相册</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0"
-                       data-close-others="false" href="#">
-                        督导管理
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">督导安排</a></li>
-                        <li><a href="#">远程督导</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0"
-                       data-close-others="false" href="#">
-                        资料管理
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">作业管理</a></li>
-                        <li><a href="#">自定义模板</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0"
-                       data-close-others="false" href="#">
-                        实习分配
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">实习点管理</a></li>
-                        <li><a href="#">实习点分配</a></li>
-                        <li><a href="#">任务分配</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0"
-                       data-close-others="false" href="#">
-                        成绩管理
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">平时成绩</a></li>
-                        <li><a href="#">期末成绩</a></li>
-                        <li><a href="#">荣誉奖励</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">更多...</a></li>
-            </ul>
-            <ul class="nav navbar-nav">
-                <li><a href="#">用户管理</a></li>
-                <li><a href="#">班级管理</a></li>
-                <li><a href="#">督导小组</a></li>
-            </ul>
-        </div>
-
-
-    </div>
-</nav>
-<!-- END TOP NAVIGATION MENU -->
-<div class="page-container">
-    <!--BEGIN LEFT MENU-->
-    <div class="page-sidebar-wrapper">
-        <div class="page-sidebar navbar-collapse collapse">
-            <ul class="page-sidebar-menu">
-                <!--<li class="navbar-header">常用功能</li>-->
-                <li class="start"><a href="#"><i class="fa fa-comments-o"></i>在线沟通</a></li>
-                <li><a href="#"><i class="fa fa-bullhorn"></i>公告</a></li>
-                <li><a href="#"><i class="fa fa-envelope-o"></i>站内信</a></li>
-                <li><a href="#"><i class="fa fa-lightbulb-o"></i>常见问题</a></li>
-                <li><a href="#"><i class="fa fa-wrench"></i>帮助</a></li>
-            </ul>
-        </div>
-    </div>
-    <!--END LEFT MENU -->
-    <!-- BEGIN CONTENT -->
-    <div class="page-content-wrapper">
-        <div class="page-content">
-
-            <div class="row">
-                <div class="col-md-12">
-
-                    <ul class="page-breadcrumb breadcrumb">
-                        <li>
-                            <i class="fa fa-home"></i>
-                            <a href="index.html">用户管理</a>
-                            <i class="fa fa-angle-right"></i>
-                        </li>
-                        <li>
-                            <a href="#">新增用户</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="page-breadcrumb breadcrumb">
+                    <li>
+                        <i class="fa fa-home"></i>
+                        <a href="index.html">用户管理</a>
+                        <i class="fa fa-angle-right"></i>
+                    </li>
+                    <li>
+                        <a href="#">新增用户</a>
+                    </li>
+                </ul>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                        <div class="tab-content">
-                            <div id="tab_1-1" class="tab-pane active">
-                                <form class="form-horizontal">
-                                    <div class="form-group">
-                                        <label class="control-label col-md-2"><h4>用户信息</h4></label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="control-label col-md-2">姓名：</label>
-                                        <div class="col-md-5">
-                                            <input class="form-control" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <lable class="control-label col-md-2">性别：</lable>
-                                        <div class="col-md-5">
-                                            <label class="radio-inline">
-                                                <input type="radio" value="0" name="gender" checked> 男
-                                            </label>
-                                            <label class="radio-inline">
-                                                <input type="radio" value="1" name="gender"> 女
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="control-label col-md-2">教授课程：</label>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
 
-                                        <div class="col-md-5">
-                                            <input class="form-control" type="text" placeholder="请填写课程名称"/>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="control-label col-md-2">角色：</label>
+                <form class="form-horizontal">
 
-                                        <div class="col-md-5">
-                                            <select class="form-control">
-                                                <option value="0">请选择</option>
-                                                <option value="1">超级管理员</option>
-                                                <option value="2">管理员</option>
-                                                <option value="3">教师</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-offset-3 margiv-top-10">
-                                        <a href="#" class="btn default">取消</a>
-                                        <a href="#" class="btn yellow">确定</a>
-                                    </div>
-                                </form>
+                    <div class="form-group">
+                        <label class="control-label col-md-2"><h4>用户信息</h4></label>
+                    </div>
 
-                            </div>
-                            <div id="tab_2-2" class="tab-pane">
-                                <ul class="nav nav-tabs">
-                                    <li class="active">
-                                        <a href="#tab_1_1" data-toggle="tab">上传附件</a>
-                                    </li>
-                                    <li class="">
-                                        <a href="#tab_1_2" data-toggle="tab">输入模板</a>
-                                    </li>
-                                </ul>
-                                <div class="tab-content">
-                                    <div class="tab-pane active" id="tab_1_1">
-                                        <form>
-                                            <input type="file"/>
-                                        </form>
-                                    </div>
-                                    <div class="tab-pane" id="tab_1_2">
-                                        <textarea  cols="100" rows="10"></textarea>
-                                    </div>
-                                    <div class=" col-md-offset-5 margiv-top-10">
-                                        <a href="#" class="btn default">取消</a>
-                                        <a href="#" class="btn blue">保存修改</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="tab_3-3" class="tab-pane">
-                                <ul class="nav nav-tabs">
-                                    <li class="active">
-                                        <a href="#tab_2_1" data-toggle="tab">上传附件</a>
-                                    </li>
-                                    <li class="">
-                                        <a href="#tab_2_2" data-toggle="tab">输入模板</a>
-                                    </li>
-                                </ul>
-                                <div class="tab-content">
-                                    <div class="tab-pane active" id="tab_2_1">
-                                        <form>
-                                            <input type="file"/>
-                                        </form>
-                                    </div>
-                                    <div class="tab-pane" id="tab_2_2">
-                                        <textarea  cols="100" rows="10"></textarea>
-                                    </div>
-                                    <div class=" col-md-offset-5 margiv-top-10">
-                                        <a href="#" class="btn default">取消</a>
-                                        <a href="#" class="btn blue">保存修改</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="tab_4-4" class="tab-pane">
-                                <ul class="nav nav-tabs">
-                                    <li class="active">
-                                        <a href="#tab_3_1" data-toggle="tab">上传附件</a>
-                                    </li>
-                                    <li class="">
-                                        <a href="#tab_3_2" data-toggle="tab">输入模板</a>
-                                    </li>
-                                </ul>
-                                <div class="tab-content">
-                                    <div class="tab-pane active" id="tab_3_1">
-                                        <form>
-                                            <input type="file"/>
-                                        </form>
-                                    </div>
-                                    <div class="tab-pane" id="tab_3_2">
-                                        <textarea  cols="100" rows="10"></textarea>
-                                    </div>
-                                    <div class=" col-md-offset-5 margiv-top-10">
-                                        <a href="#" class="btn default">取消</a>
-                                        <a href="#" class="btn blue">保存修改</a>
-                                    </div>
-                                </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label col-md-4">姓名：</label>
+
+                            <div class="col-md-8">
+                                <input class="form-control" type="text">
                             </div>
                         </div>
-                </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-4">性别：</label>
+
+                            <div class="col-md-8">
+                                <label class="radio-inline">
+                                    <input type="radio" value="0" name="gender" checked> 男
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" value="1" name="gender"> 女
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label col-md-4">教授课程：</label>
+
+                            <div class="col-md-8">
+                                <input class="form-control" type="text" placeholder="请填写课程名称"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-4">角色：</label>
+
+                            <div class="col-md-8">
+                                <select class="form-control">
+                                    <option value="0">请选择</option>
+                                    <option value="1">超级管理员</option>
+                                    <option value="2">管理员</option>
+                                    <option value="3">教师</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="margin-top-10 col-md-5">
+                        <div class="col-md-offset-5">
+                            <a href="#" class="btn default">取消</a>
+                            <a href="#" class="btn yellow">确定</a>
+                        </div>
+                    </div>
+                </form>
+
             </div>
         </div>
     </div>
-    <!-- END CONTENT -->
 </div>
-
-<!-- BEGIN FOOTER -->
-<div class="footer">
-    联系我们 | 合作机构
-</div>
-<!-- END FOOTER -->
+<!-- END CONTENT -->
 
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 <!-- BEGIN CORE PLUGINS -->
