@@ -12,3 +12,9 @@
     margin-bottom: 30px;
     border-radius: 0;
 }
+
+.performance .title{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: auto;
+}

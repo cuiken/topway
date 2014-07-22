@@ -161,3 +161,11 @@ button.close_btn {
 .badge{
     background-color:#f9cf07;
 }
+
+.table td,th{
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+.table th{
+    font-weight: bolder !important;
+}
