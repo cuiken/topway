@@ -1,0 +1,25 @@
+
+.t_center{
+    text-align:  center;
+    color: #368ee0;
+}
+
+.bottom_10{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.b_center{
+    vertical-align: middle;
+    padding-top: 19px;
+    text-align: right;
+}
+
+.tr_b{
+    background: #368ee0;
+    color: #fff;
+}
+
+
+
+
