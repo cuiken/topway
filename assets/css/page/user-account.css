@@ -87,15 +87,3 @@ ul.nav-pills {
 .user_add .page-breadcrumb.breadcrumb > li+li:before {
     display: none;
 }
-
-.announcement .title{
-    padding-bottom: 20px;
-    border-bottom: 1px dashed #eee;
-}
-.announcement .content{
-    list-style: none;
-}
-.announcement .content li{
-    padding: 20px;
-    border-bottom: 1px solid #eee;
-}
