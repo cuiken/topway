@@ -36,11 +36,11 @@ ul.nav-pills {
     text-align: center;
 }
 
-.profile-home .nav-pills{
+.profile-home .nav-pills {
     border: none;
 }
 
-.profile-home .thumbnail{
+.profile-home .thumbnail {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -48,42 +48,61 @@ ul.nav-pills {
     margin-bottom: 30px;
     border-radius: 0;
 }
-.profile-home hr{
+
+.profile-home hr {
     margin: 15px 0;
     border-top: 1px dashed #E0DFDF;
     border-bottom: 1px dashed #FEFEFE;
 }
 
-.profile-home .share-item{
+.profile-home .share-item {
     padding: 20px 0;
     border-bottom: 1px dashed #eee;
 }
 
-.profile-home .col-md-{
+.profile-home .col-md- {
     margin-right: 12px;
     width: 90px;
     float: left;
     height: 38px;
     line-height: 38px;
 }
-.profile-home .photo img{
+
+.profile-home .photo img {
     width: 190px;
 }
-.profile-home .photo .thumbnail{
+
+.profile-home .photo .thumbnail {
     margin-bottom: 10px;
 }
 
-.col-md-2 h4{
+.col-md-2 h4 {
     font-weight: bold;
 }
 
-.margiv-top-10{
+.margiv-top-10 {
     margin-top: 40px;
     padding-left: 5px;
 }
-.profile-home .username{
+
+.profile-home .username {
     padding-left: 35px;
 }
-.user_add .page-breadcrumb.breadcrumb > li+li:before {
+
+.user_add .page-breadcrumb.breadcrumb > li + li:before {
     display: none;
+}
+
+.announcement .title {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #eee;
+}
+
+.announcement .content {
+    list-style: none;
+}
+
+.announcement .content li {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
 }
