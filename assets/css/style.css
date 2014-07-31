@@ -344,7 +344,7 @@ Header and header elements.
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
-  width: 225px;
+  width: 155px;
 }
 
 .header .navbar-brand img {
@@ -932,17 +932,17 @@ Page breadcrumb
   box-shadow: none;
   padding-right: 30px;
   padding-left: 8px;
-  margin-top: 15px;
+  margin-top: 0px;
   margin-bottom: 25px;
-  border:0px !important;  
-  background-color: #eee;
+   
+  background-color: #fff;border-bottom:3px solid #f9cf07
 }
 
 .page-content .page-breadcrumb.breadcrumb > li > a, 
 .page-content .page-breadcrumb.breadcrumb > li > i, 
 .page-content .page-breadcrumb.breadcrumb > li > span {
   color: #333;
-  font-size: 14px;
+  font-size: 15px;
   text-shadow:none;
 }
 

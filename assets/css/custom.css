@@ -9,69 +9,118 @@
     box-shadow: none;
     height: 70px;
     min-height: 70px;
+    background: url(../../assets/img/headerbg1.png) repeat-x;
+}
+
+.header-inner h1 {
+    color: #3a80c1;
+    font-size: 26px;
+    font-weight: 1600;
+    line-height: 35px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    letter-spacing: 4px;
+    float: left;
 }
 
 .header .navbar-nav > li > a {
     padding: 25px 12px;
 }
 
-#top-nav {
-    background: #368ee0;
+.header .navbar-nav {
+    background: url(../../assets/img/headerbg.png) right no-repeat;
+    margin: 0;
 }
 
-#top-nav .nav.navbar-nav {
-    margin-left: 100px;
+#top-nav {
+    background: #368ee0;
+    border-top: 4px solid #f9cf07;
+}
+
+#top-nav .collapse {
+    margin-left: 125px
 }
 
 #top-nav .nav.navbar-nav a {
     color: #fff;
+    font-size: 18px;
+    margin-right: 25px
 }
 
 #top-nav .nav.navbar-nav a:hover {
-    color: #428bca;
+    color: #fff;
+    background-color: #f9cf07
 }
 
 #top-nav .dropdown.open > a {
-    background-color: #eee !important;
-    color: #428bca !important;
+    background-color: #f9cf07 !important;
+    color: #fff !important;
 }
 
 #top-nav .dropdown-menu a {
     color: #333 !important;
+    width: 100%;
+    font-size: 14px !important
 }
 
-li a{
+#top-nav .dropdown-menu a:hover, #top-nav .navbar-nav .active .dropdown-menu a:hover {
+    background: #eee !important
+}
+
+#top-nav .navbar-nav .active a {
+    background: #f9cf07;
+}
+
+#top-nav .navbar-nav .active .dropdown-menu a {
+    background: #fff !important
+}
+
+li a {
     color: #333;
 }
 
+header .navbar-nav .fa {
+    color: #fcb750
+}
 
 .page-sidebar-menu {
     /*border-top: 2px solid #368ee0;*/
     padding-top: 40px;
-    background: #fafafa;
+    background: #f6f9fe;
     height: 100%;
     min-height: 760px;
 }
 
 .page-sidebar-menu > li {
-
-    height: 70px;
-    line-height: 70px;
+    padding-left: 20px;
+    height: 55px;
+    line-height: 55px;
 }
+
 ul.page-sidebar-menu > li > a {
-    border-top: 1px solid #e2e2e2 !important;
-    font-weight: 400;
+    color: #fcb750;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .page-sidebar-menu > li > a i {
     font-size: 16px;
     margin-right: 10px;
-    text-shadow:none;
-    color: #368ee0;
+    text-shadow: none;
+    color: #fcb750;
 }
 
-.page-content {
-    border-left: 1px solid #e2e2e2 !important;
+.page-sidebar-menu .navbar-header {
+    color: #2f74b4;
+    font-size: 18px;
+    margin: -35px 0 -30px 0px;
+    font-weight: bold;
+    line-height: 50px;
+    width: 100%
+}
+
+.page-sidebar-menu .active {
+    background: #fff;
 }
 
 /**
@@ -126,9 +175,18 @@ ul.page-sidebar-menu > li > a {
 }
 
 .footer {
-    padding: 15px;
-    border-top: 1px solid #e0e0e0;
+    padding: 10px;
+    border-top: 2px solid #3c94de;
     text-align: center;
+    background: #f6f6f6;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    min-height: 70px
+}
+
+.footer a {
+    font-size: 15px
 }
 
 #warning_info {
@@ -141,6 +199,7 @@ ul.page-sidebar-menu > li > a {
     right: 0;
     z-index: 2000;
 }
+
 button.close_btn {
     padding: 0;
     cursor: pointer;
@@ -148,6 +207,7 @@ button.close_btn {
     border: 0;
     -webkit-appearance: none;
 }
+
 .close_btn {
     float: right;
     font-size: 21px;
@@ -158,14 +218,26 @@ button.close_btn {
     opacity: .2;
     filter: alpha(opacity=20);
 }
-.badge{
-    background-color:#f9cf07;
+
+.badge {
+    background-color: #f9cf07;
 }
 
-.table td,th{
-    text-align: center !important;
-    vertical-align: middle !important;
+.table {
+    font-size: 15px
 }
-.table th{
-    font-weight: bolder !important;
+
+.table thead tr th {
+    color: #fff;
+    font-size: 15px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#339de5), to(#5cbfef)); /** Chrome Safari **/
+    background: -moz-linear-gradient(top, #339de5, #5cbfef); /** FireFox **/
+    background: -o-linear-gradient(top, #339de5, #5cbfef); /** Opear **/
+    background: -ms-linear-gradient(#339de5eee 0%, #5cbfefaaa 100%); /** IE9 IE10 **/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#339de5eee', endColorstr='#5cbfefaaa', grandientType=1); /** IE7 **/
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#339de5eee', endColorstr='#5cbfefaaa', grandientType=1); /** IE8 **/
+}
+
+.ml20 {
+    margin-left: 20px
 }
