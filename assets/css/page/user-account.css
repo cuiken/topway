@@ -106,3 +106,11 @@ ul.nav-pills {
     padding: 20px;
     border-bottom: 1px solid #eee;
 }
+
+.messages .receive{
+    border-bottom: 1px dashed #eee;
+    padding: 10px;
+}
+.messages .receive span.total{
+    line-height: 60px;
+}
