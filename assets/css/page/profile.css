@@ -1,0 +1,13 @@
+.content {
+    list-style: none;
+}
+
+.content li {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.line_2{
+    text-align: right;
+    padding-right: 15px;
+}
