@@ -75,6 +75,29 @@
     background: #fff !important
 }
 
+#top-nav .more.last > a{
+    margin-right: 0;
+}
+#top-nav .more .dropdown-menu{
+    width: 400px;
+    right: 0 !important;
+    left: inherit;
+}
+#top-nav .more h4{
+    margin-top: 0;
+    padding:20px;
+    text-align: center;
+    background: #eee;
+}
+#top-nav .more .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+#top-nav .more ul{
+    list-style: none;
+}
+
+
 li a {
     color: #333;
 }
