@@ -105,6 +105,13 @@ li a {
 header .navbar-nav .fa {
     color: #fcb750
 }
+.table {
+    text-align: center;
+}
+
+.table thead tr th {
+    text-align: center;
+}
 
 .page-sidebar-menu {
     /*border-top: 2px solid #368ee0;*/

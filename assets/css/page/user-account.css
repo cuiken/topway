@@ -28,14 +28,6 @@ ul.nav-pills {
     border-top: 3px solid transparent;
 }
 
-.tab-content .table {
-    text-align: center;
-}
-
-.tab-content .table thead tr th {
-    text-align: center;
-}
-
 .profile-home .nav-pills {
     border: none;
 }
