@@ -9,7 +9,7 @@
 <html class="no-js"> <!--<![endif]-->
 <head lang="en">
     <meta charset="UTF-8">
-    <title>实习任务</title>
+    <title>实习点分配</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 
@@ -23,15 +23,15 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
     <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
     <link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
-    <link href="assets/css/page/shixi_renwu.css" rel="stylesheet" type="text/css"/>
     <!-- END THEME STYLES -->
+    <link href="assets/css/page/shixidian_assign.css" rel="stylesheet" type="text/css"/>
     <!--[if lt IE 9]>
     <script src="assets/plugins/modernizr-2.6.2.min.js"></script>
     <script src="assets/plugins/respond.min.js"></script>
     <script src="assets/plugins/excanvas.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body class="data-management">
 <div class="header navbar navbar-default navbar-static-top no-scrolling-fixed">
     <!-- BEGIN TOP NAVIGATION BAR -->
     <div class="header-inner">
@@ -125,13 +125,12 @@
     </div>
 </nav>
 <!-- END TOP NAVIGATION MENU -->
-
 <div class="page-container">
     <!--BEGIN LEFT MENU-->
     <div class="page-sidebar-wrapper">
         <div class="page-sidebar navbar-collapse collapse">
             <ul class="page-sidebar-menu">
-                <li class="navbar-header">常用功能</li>
+                <!--<li class="navbar-header">常用功能</li>-->
                 <li class="start"><a href="#"><i class="fa fa-comments-o"></i>在线沟通</a></li>
                 <li><a href="#"><i class="fa fa-bullhorn"></i>公告</a></li>
                 <li><a href="#"><i class="fa fa-envelope-o"></i>站内信</a></li>
@@ -146,6 +145,7 @@
         <div class="page-content">
             <div class="row">
                 <div class="col-md-12">
+
                     <ul class="page-breadcrumb breadcrumb">
                         <li>
                             <i class="fa fa-home"></i>
@@ -153,68 +153,83 @@
                             <i class="fa fa-angle-right"></i>
                         </li>
                         <li>
-                            <a href="#">实习分配</a>
-                            <i class="fa fa-angle-right"></i>
-                        </li>
-                        <li>
-                            <a href="#">查看任务</a>
+                            <a href="#">实习点分配</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="row margin-bottom-10">
-                <div class="col-md-12">
-                    <div class="col-md-3"><span>姓名：</span>张三</div>
-                    <div class="col-md-3"><span>学号：</span>2012001</div>
-                    <div class="col-md-3"><span>班级：</span>2012级1班</div>
-                    <div class="col-md-3"><span>实习机构：</span>机构A</div>
-                </div>
-            </div>
-
             <div class="row">
-                <div class="col-md-12">
-                    <table id="t_task" class="table table-bordered table-hover">
-                        <thead>
-                        <tr>
-                            <th><input type="checkbox" /> 序号</th>
-                            <th>任务</th>
-                            <th>截止日期</th>
-                            <th>需提交文档</th>
-                            <th>截止日期</th>
-                            <th>操作</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td rowspan="2" class="t_c"><input type="checkbox" /> &nbsp;1</td>
-                            <td rowspan="2" class="t_c">小组4节</td>
-                            <td rowspan="2" class="t_c">2014-5-15</td>
-                            <td>小组活动计划1份</td>
-                            <td>2014-5-16</td>
-                            <td><a href="#">编辑</a>&nbsp;<a href="#">删除</a> </td>
-                        </tr>
-                        <tr>
-                            <td>小组活动计划2份</td>
-                            <td>2014-5-17</td>
-                            <td><a href="#">编辑</a>&nbsp;<a href="#">删除</a> </td>
-                        </tr>
-                        <tr>
-                            <td><input type="checkbox" /> &nbsp;2</td>
-                            <td>个案1个</td>
-                            <td>2014-6-15</td>
-                            <td>个案摘要1份</td>
-                            <td>2014-6-16</td>
-                            <td><a href="#">编辑</a>&nbsp;<a href="#">删除</a> </td>
-                        </tr>
-                        </tbody>
-                    </table>
+                <div class="col-md-12 user-actions margin-bottom-10">
+                    <label>请选择班级</label>
+                    <span><input type="checkbox"/>2012级1班</span>
+                    <span><input type="checkbox"/>2012级2班</span>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-2 pull-right">
-                    <button class="btn yellow">返回</button>
+                <div class="col-md-12">
+                    <div class="tabbable tabbable-full-width">
+                        <a href="#">查看分配日志</a>
+                        <div class="tab-content">
+                            <div class="tab-pane fade active in" id="tab_2_1">
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th>序号</th>
+                                        <th>姓名</th>
+                                        <th>学号</th>
+                                        <th>班级</th>
+                                        <th>志愿机构</th>
+                                        <th>分配实习机构</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td><input type="checkbox"/>1</td>
+                                        <td>张</td>
+                                        <td>2012001</td>
+                                        <td>2012级1班</td>
+                                        <td>1.机构A/2.机构B</td>
+                                        <td><select class="form-control">
+                                            <option value="0">请选择</option>
+                                            <option value="1">机构A</option>
+                                            <option value="2">机构B</option>
+                                            <option value="3">机构C</option>
+                                        </select></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"/>2</td>
+                                        <td>李</td>
+                                        <td>2012002</td>
+                                        <td>2012级2班</td>
+                                        <td>1.机构A/2.机构B</td>
+                                        <td><select class="form-control">
+                                            <option value="0">请选择</option>
+                                            <option value="1">机构A</option>
+                                            <option value="2">机构B</option>
+                                            <option value="3">机构C</option>
+                                        </select></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"/>3</td>
+                                        <td>赵</td>
+                                        <td>2012003</td>
+                                        <td>2012级2班</td>
+                                        <td>1.机构A/2.机构B</td>
+                                        <td><select class="form-control">
+                                            <option value="0">请选择</option>
+                                            <option value="1">机构A</option>
+                                            <option value="2">机构B</option>
+                                            <option value="3">机构C</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                </div>
+            </div>
         </div>
     </div>
     <!-- END CONTENT -->
