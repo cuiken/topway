@@ -112,6 +112,12 @@ header .navbar-nav .fa {
 .table thead tr th {
     text-align: center;
 }
+.table>thead>tr>th{
+    vertical-align: middle;
+}
+.table>tbody>tr>td{
+    vertical-align: middle;
+}
 
 .page-sidebar-menu {
     /*border-top: 2px solid #368ee0;*/
